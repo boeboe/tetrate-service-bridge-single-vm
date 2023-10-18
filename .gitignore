@@ -1,0 +1,55 @@
+# Ignore Terraform plan files
+**/plan.tfout
+
+# Ignore Terraform state files
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/.terraform.tfstate.lock.info
+
+# Ignore backup files
+**/terraform.tfstate.backup
+
+# Ignore temporary files and directories
+*.bak
+*.swp
+*.log
+*.tmp
+*.temp
+**/.terraform
+
+
+# Ignore sensitive data files, e.g. secrets, keys, credentials, etc.
+secrets.*
+credentials.*
+
+# Ignore IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Terraform CLI plugins
+.terraform.d/plugin-cache/
+
+# Ignore Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore generated files
+*.tfplan
+*.tfschema
+*.lock.hcl
+
+# Ignore all .tfvars files, which might contain sensitive data
+*.tfvars
+
+# Ignore crash log files
+crash.log
